@@ -1,0 +1,31 @@
+[  1%] Built target GTPV1U
+[  1%] Built target MSC
+[  1%] Built target HASHTABLE
+[  2%] Built target GTPV2C
+Scanning dependencies of target CN_UTILS
+[  2%] Built target BSTR
+[  3%] Building C object CMakeFiles/CN_UTILS.dir/home/airbustx2w/openair-cn/src/utils/mcc_mnc_itu.c.o
+[  4%] Built target ITTI
+[  8%] Built target LFDS
+[ 10%] Built target SGW
+[ 10%] Built target UDP_SERVER
+[ 11%] Built target S1AP_EPC
+[ 12%] Built target S11_SGW
+[ 12%] Built target SCTP_SERVER
+[ 13%] Built target SECU_CN
+[ 13%] Linking C static library libCN_UTILS.a
+[ 14%] Built target S11_MME
+[ 16%] Built target S6A
+Scanning dependencies of target auth_request
+[ 16%] Built target CN_UTILS
+[ 16%] Building C object CMakeFiles/auth_request.dir/home/airbustx2w/openair-cn/src/utils/mcc_mnc_itu.c.o
+[ 18%] Built target MME_APP
+[ 18%] Linking C executable spgw
+[ 19%] Built target test_mme_app_ue_context_imsi
+[ 19%] Linking C executable auth_request
+[ 19%] Built target spgw
+[ 20%] Built target auth_request
+[ 45%] Built target LIB_NAS_MME
+[ 99%] Built target S1AP_LIB
+[ 99%] Linking C executable mme
+[100%] Built target mme

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMSC.a  CMakeFiles/MSC.dir/home/airbustx2w/openair-cn/src/utils/msc/msc.c.o
+/usr/bin/ranlib libMSC.a

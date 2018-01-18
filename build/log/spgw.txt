@@ -1,0 +1,173 @@
+[  0%] Built target HASHTABLE
+Scanning dependencies of target MSC
+Scanning dependencies of target GTPV1U
+Scanning dependencies of target CN_UTILS
+[  0%] Building C object CMakeFiles/MSC.dir/home/airbustx2w/openair-cn/src/utils/msc/msc.c.o
+[  1%] Building C object CMakeFiles/GTPV1U.dir/home/airbustx2w/openair-cn/src/gtpv1-u/gtpv1u_task.c.o
+[  2%] Built target GTPV2C
+[  2%] Building C object CMakeFiles/CN_UTILS.dir/home/airbustx2w/openair-cn/src/utils/enum_string.c.o
+[  2%] Building C object CMakeFiles/CN_UTILS.dir/home/airbustx2w/openair-cn/src/utils/log.c.o
+[  2%] Built target BSTR
+[  2%] Building C object CMakeFiles/GTPV1U.dir/home/airbustx2w/openair-cn/src/gtpv1-u/gtp_mod_kernel.c.o
+Scanning dependencies of target ITTI
+[  3%] Building C object CMakeFiles/ITTI.dir/home/airbustx2w/openair-cn/src/common/itti/intertask_interface.c.o
+[  3%] Linking C static library libGTPV1U.a
+[  7%] Built target LFDS
+Scanning dependencies of target S1AP_EPC
+[  7%] Linking C static library libMSC.a
+[  7%] Built target GTPV1U
+[  7%] Building C object CMakeFiles/ITTI.dir/home/airbustx2w/openair-cn/src/common/itti/signals.c.o
+[  7%] Built target MSC
+[  7%] Building C object CMakeFiles/S1AP_EPC.dir/home/airbustx2w/openair-cn/src/s1ap/s1ap_mme_encoder.c.o
+[  7%] Linking C static library libCN_UTILS.a
+Scanning dependencies of target UDP_SERVER
+[  7%] Building C object CMakeFiles/ITTI.dir/home/airbustx2w/openair-cn/src/common/itti/timer.c.o
+[  8%] Built target CN_UTILS
+Scanning dependencies of target SGW
+[  8%] Building C object CMakeFiles/UDP_SERVER.dir/home/airbustx2w/openair-cn/src/udp/udp_primitives_server.c.o
+[  8%] Building C object CMakeFiles/S1AP_EPC.dir/home/airbustx2w/openair-cn/src/s1ap/s1ap_mme_decoder.c.o
+[  8%] Building C object CMakeFiles/SGW.dir/home/airbustx2w/openair-cn/src/sgw/spgw_config.c.o
+[  9%] Building C object CMakeFiles/SGW.dir/home/airbustx2w/openair-cn/src/sgw/pgw_config.c.o
+[  9%] Building C object CMakeFiles/S1AP_EPC.dir/home/airbustx2w/openair-cn/src/s1ap/s1ap_mme_handlers.c.o
+[  9%] Linking C static library libITTI.a
+[  9%] Building C object CMakeFiles/SGW.dir/home/airbustx2w/openair-cn/src/sgw/sgw_config.c.o
+[  9%] Linking C static library libUDP_SERVER.a
+[  9%] Built target ITTI
+[  9%] Built target UDP_SERVER
+[  9%] Building C object CMakeFiles/S1AP_EPC.dir/home/airbustx2w/openair-cn/src/s1ap/s1ap_mme_nas_procedures.c.o
+[  9%] Building C object CMakeFiles/SGW.dir/home/airbustx2w/openair-cn/src/sgw/s11_causes.c.o
+Scanning dependencies of target SCTP_SERVER
+[  9%] Building C object CMakeFiles/SCTP_SERVER.dir/home/airbustx2w/openair-cn/src/sctp/sctp_common.c.o
+[  9%] Building C object CMakeFiles/SCTP_SERVER.dir/home/airbustx2w/openair-cn/src/sctp/sctp_itti_messaging.c.o
+[  9%] Building C object CMakeFiles/SGW.dir/home/airbustx2w/openair-cn/src/sgw/sgw_task.c.o
+Scanning dependencies of target S11_SGW
+[  9%] Building C object CMakeFiles/SGW.dir/home/airbustx2w/openair-cn/src/sgw/sgw_handlers.c.o
+[  9%] Building C object CMakeFiles/S11_SGW.dir/home/airbustx2w/openair-cn/src/s11/s11_ie_formatter.c.o
+[  9%] Building C object CMakeFiles/S1AP_EPC.dir/home/airbustx2w/openair-cn/src/s1ap/s1ap_mme.c.o
+[  9%] Building C object CMakeFiles/SCTP_SERVER.dir/home/airbustx2w/openair-cn/src/sctp/sctp_primitives_server.c.o
+[ 10%] Building C object CMakeFiles/S1AP_EPC.dir/home/airbustx2w/openair-cn/src/s1ap/s1ap_mme_itti_messaging.c.o
+[ 10%] Building C object CMakeFiles/SGW.dir/home/airbustx2w/openair-cn/src/sgw/sgw_context_manager.c.o
+[ 10%] Building C object CMakeFiles/SGW.dir/home/airbustx2w/openair-cn/src/sgw/pgw_lite_paa.c.o
+[ 10%] Linking C static library libSCTP_SERVER.a
+[ 11%] Building C object CMakeFiles/SGW.dir/home/airbustx2w/openair-cn/src/sgw/pgw_pco.c.o
+[ 11%] Building C object CMakeFiles/S11_SGW.dir/home/airbustx2w/openair-cn/src/s11/s11_sgw.c.o
+[ 11%] Building C object CMakeFiles/S1AP_EPC.dir/home/airbustx2w/openair-cn/src/s1ap/s1ap_mme_retransmission.c.o
+[ 11%] Built target SCTP_SERVER
+[ 11%] Building C object CMakeFiles/S1AP_EPC.dir/home/airbustx2w/openair-cn/src/s1ap/s1ap_mme_ta.c.o
+[ 11%] Linking C static library libSGW.a
+Scanning dependencies of target S6A
+[ 11%] Built target SGW
+[ 11%] Building C object CMakeFiles/S6A.dir/home/airbustx2w/openair-cn/src/s6a/s6a_dict.c.o
+[ 11%] Linking C static library libS1AP_EPC.a
+[ 12%] Building C object CMakeFiles/S6A.dir/home/airbustx2w/openair-cn/src/s6a/s6a_auth_info.c.o
+[ 12%] Building C object CMakeFiles/S11_SGW.dir/home/airbustx2w/openair-cn/src/s11/s11_sgw_session_manager.c.o
+Scanning dependencies of target S11_MME
+[ 12%] Building C object CMakeFiles/S11_MME.dir/home/airbustx2w/openair-cn/src/s11/s11_ie_formatter.c.o
+[ 12%] Built target S1AP_EPC
+[ 12%] Building C object CMakeFiles/S11_MME.dir/home/airbustx2w/openair-cn/src/s11/s11_mme_task.c.o
+[ 12%] Building C object CMakeFiles/S6A.dir/home/airbustx2w/openair-cn/src/s6a/s6a_error.c.o
+[ 13%] Building C object CMakeFiles/S11_SGW.dir/home/airbustx2w/openair-cn/src/s11/s11_sgw_bearer_manager.c.o
+[ 13%] Building C object CMakeFiles/S6A.dir/home/airbustx2w/openair-cn/src/s6a/s6a_peer.c.o
+[ 14%] Building C object CMakeFiles/S11_MME.dir/home/airbustx2w/openair-cn/src/s11/s11_mme_bearer_manager.c.o
+[ 14%] Building C object CMakeFiles/S6A.dir/home/airbustx2w/openair-cn/src/s6a/s6a_subscription_data.c.o
+[ 14%] Linking C static library libS11_SGW.a
+[ 14%] Building C object CMakeFiles/S11_MME.dir/home/airbustx2w/openair-cn/src/s11/s11_mme_session_manager.c.o
+[ 14%] Building C object CMakeFiles/S6A.dir/home/airbustx2w/openair-cn/src/s6a/s6a_task.c.o
+[ 14%] Building C object CMakeFiles/S6A.dir/home/airbustx2w/openair-cn/src/s6a/s6a_up_loc.c.o
+[ 14%] Built target S11_SGW
+[ 15%] Built target SECU_CN
+[ 15%] Linking C static library libS11_MME.a
+Scanning dependencies of target MME_APP
+[ 16%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/mme_app_capabilities.c.o
+[ 16%] Linking C static library libS6A.a
+[ 16%] Built target S11_MME
+[ 16%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/mme_app_context.c.o
+Scanning dependencies of target auth_request
+[ 16%] Building C object CMakeFiles/auth_request.dir/home/airbustx2w/openair-cn/src/test/auth_request.c.o
+[ 16%] Built target S6A
+[ 16%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/mme_app_if_nas_transport.c.o
+[ 16%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/mme_app_main.c.o
+[ 16%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/mme_app_bearer.c.o
+[ 16%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/mme_app_detach.c.o
+[ 16%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/mme_app_location.c.o
+[ 16%] Linking C executable auth_request
+Scanning dependencies of target S1AP_LIB
+[ 17%] Built target auth_request
+[ 17%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/mme_app_ue_context.c.o
+[ 17%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/mme_app_transport.c.o
+[ 17%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/mme_app_statistics.c.o
+Scanning dependencies of target LIB_NAS_MME
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/r10.5/s1ap_decoder.c.o
+[ 17%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/nas_itti_messaging.c.o
+Scanning dependencies of target spgw
+[ 17%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/nas_if_s1.c.o
+[ 17%] Building C object CMakeFiles/spgw.dir/home/airbustx2w/openair-cn/src/oai_sgw/oai_sgw.c.o
+[ 17%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/nas_if_s6a.c.o
+[ 17%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/mme_config.c.o
+[ 17%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/nas_network.c.o
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/r10.5/s1ap_encoder.c.o
+[ 17%] Linking C executable spgw
+[ 18%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/nas_proc.c.o
+[ 19%] Building C object CMakeFiles/MME_APP.dir/home/airbustx2w/openair-cn/src/mme_app/s6a_2_nas_cause.c.o
+[ 20%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/r10.5/s1ap_xer_print.c.o
+[ 20%] Linking C static library libMME_APP.a
+[ 20%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/api/network/as_message.c.o
+[ 21%] Built target MME_APP
+[ 21%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/api/network/nas_message.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/home/airbustx2w/openair-cn/src/s1ap/s1ap_common.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/api/mme/mme_api.c.o
+[ 21%] Built target spgw
+[ 21%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/msg/emm_msg.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/msg/esm_msg.c.o
+Scanning dependencies of target test_mme_app_ue_context_imsi
+[ 21%] Building C object tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/util/nas_timer.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/Attach.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/Authentication.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/Detach.c.o
+[ 23%] Linking C executable test_mme_app_ue_context_imsi
+[ 23%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/EmmCommon.c.o
+[ 23%] Built target test_mme_app_ue_context_imsi
+[ 23%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/emm_data_ctx.c.o
+[ 23%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/emm_main.c.o
+[ 23%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/EmmStatusHdl.c.o
+[ 23%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/Identification.c.o
+[ 24%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/LowerLayer.c.o
+[ 24%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/SecurityModeControl.c.o
+[ 24%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/ServiceRequestHdl.c.o
+[ 24%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/emm_as.c.o
+[ 24%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/TrackingAreaUpdate.c.o
+[ 24%] Linking C static library libS1AP_LIB.a
+[ 24%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/emm_cn.c.o
+[ 24%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/EmmCommonProcedureInitiated.c.o
+[ 24%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/EmmDeregistered.c.o
+[ 25%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/EmmDeregisteredInitiated.c.o
+[ 25%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/emm_esm.c.o
+[ 25%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/emm_fsm.c.o
+[ 25%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/emm_recv.c.o
+[ 25%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/emm_reg.c.o
+[ 25%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/EmmRegistered.c.o
+[ 25%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/emm_sap.c.o
+[ 26%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/emm/sap/emm_send.c.o
+[ 26%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/DedicatedEpsBearerContextActivation.c.o
+[ 26%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/DefaultEpsBearerContextActivation.c.o
+[ 26%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/esm_data_context.c.o
+[ 26%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/EpsBearerContextDeactivation.c.o
+[ 26%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/esm_ebr.c.o
+[ 26%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/esm_ebr_context.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/esm_ip.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/esm_main.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/EsmStatusHdl.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/PdnConnectivity.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/PdnDisconnect.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/sap/esm_recv.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/airbustx2w/openair-cn/src/nas/esm/sap/esm_sap.c.o
+[ 27%] Linking C static library libLIB_NAS_MME.a
+[ 80%] Built target S1AP_LIB
+[ 99%] Built target LIB_NAS_MME
+Scanning dependencies of target mme
+[ 99%] Building C object CMakeFiles/mme.dir/home/airbustx2w/openair-cn/src/oai_mme/oai_mme.c.o
+[ 99%] Building C object CMakeFiles/mme.dir/home/airbustx2w/openair-cn/src/common/common_types.c.o
+[ 99%] Building C object CMakeFiles/mme.dir/home/airbustx2w/openair-cn/src/nas/nas_mme_task.c.o
+[ 99%] Linking C executable mme
+[100%] Built target mme

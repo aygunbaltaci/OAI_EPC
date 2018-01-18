@@ -1,0 +1,156 @@
+[32mOPENAIR_DIR    = [00m
+[sudo] password for airbustx2w: 
+Sorry, try again.
+[sudo] password for airbustx2w: 
+Initializing OAI Logging
+000000 00000:711521 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0212    Parsing configuration file found S1u_S12_S4_up: 192.168.12.62/24 on eno1
+000001 00000:711531 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0225    Parsing configuration file found S5_S8_up: 0.0.0.0/24 on none
+000002 00000:711537 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0238    Parsing configuration file found S11: 127.0.11.2/8 on lo
+000003 00000:711626 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0265    Parsing configuration file provided /usr/local/etc/oai/spgw.conf
+000004 00000:711633 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0283    Parsing configuration file found SGI: on enp0s29u1u7
+000005 00000:711638 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0287    Masquerade SGI
+000006 00000:711641 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0297    NO CLAMP TCP MSS
+000007 00000:711650 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0352    Parsing configuration file default primary DNS IPv4 address: 8080808
+000008 00000:711654 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0353    Parsing configuration file default secondary DNS IPv4 address: 4040808
+000009 00000:711658 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0361    Protocol configuration options: push MTU, push DNS, IP address allocation via NAS signalling
+000010 00000:711661 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0371    UE MTU : 1400
+000011 00000:711666 7FC8F9638700 DEBUG SPGW-A openair-cn/src/sgw/spgw_config.c:0065    system command: sysctl -w net.ipv4.ip_forward=1
+net.ipv4.ip_forward = 1
+000012 00000:713038 7FC8F9638700 DEBUG SPGW-A openair-cn/src/sgw/spgw_config.c:0065    system command: sync
+000013 00000:860766 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0075    system command: iptables -t mangle -F FORWARD
+000014 00000:862077 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0075    system command: iptables -t nat -F POSTROUTING
+000015 00000:862922 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0145    Found SGI interface MTU=1500
+000016 00000:862940 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0167    Foung S5_S8 interface MTU=1680
+000017 00000:898601 7FC8F9638700 DEBUG SPGW-A /openair-cn/src/sgw/pgw_config.c:0075    system command: iptables -t nat -I POSTROUTING -s 172.16.0.0/12 -o enp0s29u1u7  ! --protocol sctp -j SNAT --to-source 192.168.42.87
+000018 00000:900480 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0259    ==== EURECOM S/P-GW vBranch: develop Abrev. Hash: 724542d Date: Thu Jun 22 16:17:12 2017 +0200 ====
+000019 00000:900491 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0260    Configuration:
+000020 00000:900494 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0261    - File .................................: /usr/local/etc/oai/spgw.conf
+000021 00000:900497 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0263    - S1-U:
+000022 00000:900499 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0264        port number ......: 2152
+000023 00000:900502 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0265        S1u_S12_S4 iface .....: eno1
+000024 00000:900505 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0266        S1u_S12_S4 ip ........: 192.168.12.62/24
+000025 00000:900508 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0267    - S5-S8:
+000026 00000:900511 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0268        S5_S8 iface ..........: none
+000027 00000:900514 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0269        S5_S8 ip .............: 0.0.0.0/24
+000028 00000:900518 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0270    - S11:
+000029 00000:900521 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0271        S11 iface ............: lo
+000030 00000:900524 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0272        S11 ip ...............: 127.0.11.2/8
+000031 00000:900526 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0273    - ITTI:
+000032 00000:900529 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0274        queue size .......: 0 (bytes)
+000033 00000:900532 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0275        log file .........: (null)
+000034 00000:900534 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0277    - Logging:
+000035 00000:900536 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0278        Output ..............: CONSOLE
+000036 00000:900539 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0279        Output thread-safe...: false
+000037 00000:900541 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0280        UDP log level........: TRACE
+000038 00000:900544 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0281        GTPV1-U log level....: TRACE
+000039 00000:900547 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0282        GTPV2-C log level....: TRACE
+000040 00000:900550 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0283        S/P-GW APP log level.: TRACE
+000041 00000:900553 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0284        S11 log level........: TRACE
+000042 00000:900555 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0285        UTIL log level.......: INVALID_LOG_LEVEL
+000043 00000:900558 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0286        MSC log level........: INVALID_LOG_LEVEL (MeSsage Chart)
+000044 00000:900560 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0287        ITTI log level.......: INVALID_LOG_LEVEL (InTer-Task Interface)
+000045 00000:900563 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0383    ==== EURECOM S/P-GW vBranch: develop Abrev. Hash: 724542d Date: Thu Jun 22 16:17:12 2017 +0200 ====
+000046 00000:900566 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0384    Configuration:
+000047 00000:900568 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0385    - File .................................: /usr/local/etc/oai/spgw.conf
+000048 00000:900570 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0387    - S5-S8:
+000049 00000:900573 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0388        S5_S8 iface ..........: eno1
+000050 00000:900575 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0389        S5_S8 ip  (read)......: 192.168.12.62
+000051 00000:900578 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0390        S5_S8 MTU (read)......: 1680
+000052 00000:900580 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0391    - SGi:
+000053 00000:900583 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0392        SGi iface ............: enp0s29u1u7
+000054 00000:900585 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0393        SGi ip  (read)........: 192.168.42.87
+000055 00000:900588 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0394        SGi MTU (read)........: 1500
+000056 00000:900590 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0396    - MSS clamping: ..........: 0
+000057 00000:900592 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0397    - Masquerading: ..........: 1
+000058 00000:900595 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0398    - Push PCO: ..............: 1
+000059 00000:900601 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0259    ==== EURECOM S/P-GW vBranch: develop Abrev. Hash: 724542d Date: Thu Jun 22 16:17:12 2017 +0200 ====
+000060 00000:900605 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0260    Configuration:
+000061 00000:900608 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0261    - File .................................: /usr/local/etc/oai/spgw.conf
+000062 00000:900611 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0263    - S1-U:
+000063 00000:900613 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0264        port number ......: 2152
+000064 00000:900616 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0265        S1u_S12_S4 iface .....: eno1
+000065 00000:900618 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0266        S1u_S12_S4 ip ........: 192.168.12.62/24
+000066 00000:900621 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0267    - S5-S8:
+000067 00000:900623 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0268        S5_S8 iface ..........: none
+000068 00000:900626 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0269        S5_S8 ip .............: 0.0.0.0/24
+000069 00000:900628 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0270    - S11:
+000070 00000:900630 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0271        S11 iface ............: lo
+000071 00000:900633 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0272        S11 ip ...............: 127.0.11.2/8
+000072 00000:900638 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0273    - ITTI:
+000073 00000:900641 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0274        queue size .......: 0 (bytes)
+000074 00000:900643 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0275        log file .........: (null)
+000075 00000:900646 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0277    - Logging:
+000076 00000:900648 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0278        Output ..............: CONSOLE
+000077 00000:900651 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0279        Output thread-safe...: false
+000078 00000:900653 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0280        UDP log level........: TRACE
+000079 00000:900656 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0281        GTPV1-U log level....: TRACE
+000080 00000:900658 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0282        GTPV2-C log level....: TRACE
+000081 00000:900660 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0283        S/P-GW APP log level.: TRACE
+000082 00000:900663 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0284        S11 log level........: TRACE
+000083 00000:900665 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0285        UTIL log level.......: INVALID_LOG_LEVEL
+000084 00000:900667 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0286        MSC log level........: INVALID_LOG_LEVEL (MeSsage Chart)
+000085 00000:900670 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/sgw_config.c:0287        ITTI log level.......: INVALID_LOG_LEVEL (InTer-Task Interface)
+000086 00000:900672 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0383    ==== EURECOM S/P-GW vBranch: develop Abrev. Hash: 724542d Date: Thu Jun 22 16:17:12 2017 +0200 ====
+000087 00000:900675 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0384    Configuration:
+000088 00000:900677 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0385    - File .................................: /usr/local/etc/oai/spgw.conf
+000089 00000:900679 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0387    - S5-S8:
+000090 00000:900682 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0388        S5_S8 iface ..........: eno1
+000091 00000:900685 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0389        S5_S8 ip  (read)......: 192.168.12.62
+000092 00000:900687 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0390        S5_S8 MTU (read)......: 1680
+000093 00000:900690 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0391    - SGi:
+000094 00000:900693 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0392        SGi iface ............: enp0s29u1u7
+000095 00000:900696 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0393        SGi ip  (read)........: 192.168.42.87
+000096 00000:900698 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0394        SGi MTU (read)........: 1500
+000097 00000:900701 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0396    - MSS clamping: ..........: 0
+000098 00000:900703 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0397    - Masquerading: ..........: 1
+000099 00000:900706 7FC8F9638700 INFO  SPGW-A /openair-cn/src/sgw/pgw_config.c:0398    - Push PCO: ..............: 1
+Initializing MSC logs
+Initializing MSC logs Done
+000100 00000:908326 7FC8F9638700 DEBUG UDP    /src/udp/udp_primitives_server.c:0356    Initializing UDP task interface
+000101 00000:908357 7FC8F9638700 DEBUG UDP    /src/udp/udp_primitives_server.c:0364    Initializing UDP task interface: DONE
+000102 00000:908377 7FC8F9638700 DEBUG S11    x2w/openair-cn/src/s11/s11_sgw.c:0259    Initializing S11 interface
+000103 00000:908464 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0218     *----------------------------------------------------------------------------*
+000104 00000:908469 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0219     *                                                                            *
+000105 00000:908473 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0220     *                             n w - g t p v 2 c                              *
+000106 00000:908475 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0221     *    G P R S    T u n n e l i n g    P r o t o c o l   v 2 c   S t a c k     *
+000107 00000:908478 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0222     *                                                                            *
+000108 00000:908481 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0223     *                                                                            *
+000109 00000:908483 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0224     * Copyright (c) 2010-2011 Amit Chawre                                        *
+000110 00000:908488 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0225     * All rights reserved.                                                       *
+000111 00000:908491 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0226     *                                                                            *
+000112 00000:908494 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0227     * Redistribution and use in source and binary forms, with or without         *
+000113 00000:908496 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0228     * modification, are permitted provided that the following conditions         *
+000114 00000:908499 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0229     * are met:                                                                   *
+000115 00000:908502 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0230     *                                                                            *
+000116 00000:908504 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0231     * 1. Redistributions of source code must retain the above copyright          *
+000117 00000:908506 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0232     *    notice, this list of conditions and the following disclaimer.           *
+000118 00000:908509 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0233     * 2. Redistributions in binary form must reproduce the above copyright       *
+000119 00000:908512 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0234     *    notice, this list of conditions and the following disclaimer in the     *
+000120 00000:908515 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0235     *    documentation and/or other materials provided with the distribution.    *
+000121 00000:908517 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0236     * 3. The name of the author may not be used to endorse or promote products   *
+000122 00000:908520 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0237     *    derived from this software without specific prior written permission.   *
+000123 00000:908522 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0238     *                                                                            *
+000124 00000:908525 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0239     * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR       *
+000125 00000:908527 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0240     * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES  *
+000126 00000:908529 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0241     * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.    *
+000127 00000:908532 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0242     * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,           *
+000128 00000:908534 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0243     * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT   *
+000129 00000:908536 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0244     * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,  *
+000130 00000:908539 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0245     * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY      *
+000131 00000:908542 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0246     * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT        *
+000132 00000:908545 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0247     * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF   *
+000133 00000:908547 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0248     * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.          *
+000134 00000:908550 7FC8F9638700 INFO  GTPv2- 2-c/nwgtpv2c-0.11/src/NwGtpv2c.c:0249     *----------------------------------------------------------------------------*
+
+000135 00000:908581 7FC8F9638700 DEBUG S11    x2w/openair-cn/src/s11/s11_sgw.c:0244    Tx UDP_INIT IP addr 127.0.11.2
+000136 00000:908592 7FC8F9638700 DEBUG S11    x2w/openair-cn/src/s11/s11_sgw.c:0301    Initializing S11 interface: DONE
+000137 00000:908598 7FC8F9638700 DEBUG SPGW-A 2w/openair-cn/src/sgw/sgw_task.c:0148    Initializing SPGW-APP  task interface
+000138 00000:908602 7FC8F9638700 DEBUG GTPv1- air-cn/src/gtpv1-u/gtpv1u_task.c:0096    Initializing GTPV1U interface
+000139 00000:908603 7FC8F5707700 DEBUG UDP    /src/udp/udp_primitives_server.c:0126    Creating new listen socket on address 127.0.11.2 and port 2123
+000140 00000:909205 7FC8F5707700 DEBUG UDP    /src/udp/udp_primitives_server.c:0171    Inserting new descriptor for task 6, sd 31
+000141 00000:909239 7FC8F5707700 DEBUG UDP    /src/udp/udp_primitives_server.c:0187    Received 1 events
+000142 00000:953748 7FC8F9638700 NOTIC GTPv1- -cn/src/gtpv1-u/gtp_mod_kernel.c:0081    Using the GTP kernel mode (genl ID is 26)
+000143 00000:960311 7FC8F9638700 DEBUG GTPv1- -cn/src/gtpv1-u/gtp_mod_kernel.c:0104    Setting route to reach UE net 172.16.0.0 via gtp0
+000144 00000:960711 7FC8F9638700 NOTIC GTPv1- -cn/src/gtpv1-u/gtp_mod_kernel.c:0111    GTP kernel configured
+000145 00000:960924 7FC8F9638700 DEBUG GTPv1- air-cn/src/gtpv1-u/gtpv1u_task.c:0124    Initializing GTPV1U interface: DONE
+000146 00001:001632 7FC8F9638700 DEBUG SPGW-A 2w/openair-cn/src/sgw/sgw_task.c:0208    Initializing SPGW-APP task interface: DONE
